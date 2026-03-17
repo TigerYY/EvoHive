@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="EvoHive 团队智能体工作台 — 让团队进化为智能体。Build Team Intelligence That Evolves." />
+  <title data-i18n="meta.title">EvoHive 团队智能体工作台 | 智巢</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+
+  <header class="nav">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo" data-i18n="nav.logo">EvoHive</a>
+      <span class="nav-sub" data-i18n="nav.sub">智巢</span>
+      <nav class="nav-links">
+        <a href="#positioning" data-i18n="nav.positioning">产品定位</a>
+        <a href="#model" data-i18n="nav.model">双层模型</a>
+        <a href="#six-tuple" data-i18n="nav.sixTuple">六元组</a>
+        <a href="#deployment" data-i18n="nav.deployment">部署</a>
+        <a href="#roadmap" data-i18n="nav.roadmap">路线</a>
+        <a href="#cta" data-i18n="nav.cta">联系我们</a>
+      </nav>
+      <button type="button" class="lang-toggle" id="langToggle" aria-label="Switch language">EN</button>
+      <button type="button" class="nav-toggle" id="navToggle" aria-label="Menu">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="hero">
+      <div class="organic-hive" aria-hidden="true">
+        <div class="hex hex-1"></div>
+        <div class="hex hex-2"></div>
+        <div class="hex hex-3"></div>
+        <div class="hex hex-4"></div>
+        <div class="hex hex-5"></div>
+        <div class="hex hex-6"></div>
+        <div class="hex hex-7"></div>
+      </div>
+      <p class="section-symbol" data-i18n="hero.symbol">TEAM AGENT WORKSPACE</p>
+      <h1 class="hero-title" data-i18n="hero.title">让团队进化为智能体</h1>
+      <p class="hero-tagline" data-i18n="hero.tagline">EvoHive 是一个面向小团队的团队智能体工作台，让能力共享、知识沉淀与持续协作在同一套系统中完成。</p>
+      <div class="hero-cta">
+        <a href="#cta" class="btn btn-primary" data-i18n="hero.ctaPrimary">预约演示</a>
+        <a href="#positioning" class="btn btn-secondary" data-i18n="hero.ctaSecondary">阅读产品定义</a>
+      </div>
+      <div class="hero-badges">
+        <span>Team Workspace</span>
+        <span>Capability Exchange</span>
+        <span>Skill · Workflow · Blueprint</span>
+      </div>
+    </section>
+
+    <section id="positioning" class="section">
+      <p class="section-symbol" data-i18n="positioning.symbol">POSITIONING</p>
+      <h2 data-i18n="positioning.title">不是另一个聊天机器人，而是团队的智能体工作台</h2>
+      <p class="lead" data-i18n="positioning.lead">在清晰边界下装配 Agent、复用 Skill、沉淀知识，并让团队能力持续进化。</p>
+      <div class="positioning-grid">
+        <div class="card">
+          <h3 data-i18n="positioning.not1">不是</h3>
+          <ul>
+            <li data-i18n="positioning.notItem1">单一聊天助手</li>
+            <li data-i18n="positioning.notItem2">全公司统一大脑</li>
+            <li data-i18n="positioning.notItem3">无限自治的黑盒系统</li>
+          </ul>
+        </div>
+        <div class="card card-accent">
+          <h3 data-i18n="positioning.is1">是</h3>
+          <ul>
+            <li data-i18n="positioning.isItem1">团队级智能体运行环境</li>
+            <li data-i18n="positioning.isItem2">团队能力共享与装配平台</li>
+            <li data-i18n="positioning.isItem3">受监督、可进化、可回滚的协作系统</li>
+          </ul>
+        </div>
+      </div>
+      <p class="text-muted" data-i18n="positioning.footer">EvoHive 面向 3–20 人扁平小团队：运行时按团队隔离，能力按团队共享与跨团队发布，不共享原始会话与原始记忆。</p>
+    </section>
+
+    <section id="model" class="section">
+      <p class="section-symbol" data-i18n="model.symbol">CORE MODEL</p>
+      <h2 data-i18n="model.title">双层模型</h2>
+      <p class="lead" data-i18n="model.lead">Team Workspace 与 Capability Exchange 构成产品内核。</p>
+      <div class="model-cards">
+        <div class="model-card">
+          <span class="model-card-name">Team Workspace</span>
+          <h3 data-i18n="model.twTitle">团队工作台</h3>
+          <p data-i18n="model.twDesc">以团队为边界的运行时与资源容器：Agents、会话、工作区存储、共享技能库、知识视图、权限与审计。</p>
+        </div>
+        <div class="model-card">
+          <span class="model-card-name">Capability Exchange</span>
+          <h3 data-i18n="model.ceTitle">能力交换层</h3>
+          <p data-i18n="model.ceDesc">团队间能力发布、发现、安装与治理：Skill / Workflow / Policy Pack / Agent Blueprint，版本与兼容性、Owner 与风险级别。</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="six-tuple" class="section">
+      <p class="section-symbol" data-i18n="sixTuple.symbol">SIX-TUPLE</p>
+      <h2 data-i18n="sixTuple.title">六元组能力映射</h2>
+      <p class="lead" data-i18n="sixTuple.lead">完整保留六层：出入口、路由、频道、技能、记忆、沙箱，在小团队场景下收敛而非删层。</p>
+      <div class="tuple-grid">
+        <div class="tuple-card">
+          <span class="tuple-name">Entry Points</span>
+          <p class="tuple-essence" data-i18n="sixTuple.entry">统一协议转换，1–2 主入口（Web + Chat），入站事件带 teamId / channel</p>
+        </div>
+        <div class="tuple-card">
+          <span class="tuple-name">Routing</span>
+          <p class="tuple-essence" data-i18n="sixTuple.routing">来源 / 角色 / 任务 / 默认四类规则，显式兜底与可观测日志</p>
+        </div>
+        <div class="tuple-card">
+          <span class="tuple-name">Channels</span>
+          <p class="tuple-essence" data-i18n="sixTuple.channels">Team Workspace + 稳定 Session Key，会话与记忆按 Key 隔离</p>
+        </div>
+        <div class="tuple-card">
+          <span class="tuple-name">Skills</span>
+          <p class="tuple-essence" data-i18n="sixTuple.skills">声明式能力单元，团队内共享 + 能力交换层安装，effectivePolicy 不扩权</p>
+        </div>
+        <div class="tuple-card">
+          <span class="tuple-name">Memory</span>
+          <p class="tuple-essence" data-i18n="sixTuple.memory">Compaction + 关键事实，团队内长期记忆；跨团队仅 Knowledge View</p>
+        </div>
+        <div class="tuple-card">
+          <span class="tuple-name">Sandbox</span>
+          <p class="tuple-essence" data-i18n="sixTuple.sandbox">分级隔离，最小权限、审计日志、Policy Pack，安装技能不继承全部权限</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="deployment" class="section">
+      <p class="section-symbol" data-i18n="deployment.symbol">DEPLOYMENT</p>
+      <h2 data-i18n="deployment.title">部署模式</h2>
+      <p class="lead" data-i18n="deployment.lead">支持私有环境、客户自租云主机、平台多租户 SaaS、混合部署。</p>
+      <div class="deploy-grid">
+        <div class="deploy-card">
+          <h3 data-i18n="deployment.privateTitle">私有环境 / 独立设备</h3>
+          <p data-i18n="deployment.privateDesc">客户侧控制面与数据面，内网或外网 LLM 自配；平台提供安装包与文档。</p>
+        </div>
+        <div class="deploy-card">
+          <h3 data-i18n="deployment.cloudTitle">客户自租云主机</h3>
+          <p data-i18n="deployment.cloudDesc">单租户，镜像或 Helm 部署；可选平台升级与监控。</p>
+        </div>
+        <div class="deploy-card">
+          <h3 data-i18n="deployment.saasTitle">平台多租户 SaaS</h3>
+          <p data-i18n="deployment.saasDesc">控制面与运行面平台托管，按租户逻辑隔离，快速开通。</p>
+        </div>
+        <div class="deploy-card">
+          <h3 data-i18n="deployment.hybridTitle">混合部署</h3>
+          <p data-i18n="deployment.hybridDesc">敏感数据在客户侧，控制面与能力目录可上云，统一治理。</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="interaction" class="section">
+      <p class="section-symbol" data-i18n="interaction.symbol">INTERACTION</p>
+      <h2 data-i18n="interaction.title">交互方式</h2>
+      <p class="lead" data-i18n="interaction.lead">Web Team Console、Chat Entry、API/Webhook、审批中心、Run Log / Ops Dashboard。</p>
+      <ul class="interaction-list">
+        <li data-i18n="interaction.item1">团队成员：会话与任务、成果查看、转人工、知识检索</li>
+        <li data-i18n="interaction.item2">团队管理员：Agent 装配、权限、知识视图、审批、审计</li>
+        <li data-i18n="interaction.item3">能力发布者：发布 Skill / Workflow / Blueprint / Policy</li>
+        <li data-i18n="interaction.item4">运营 / Owner：使用分析、成本归因、版本治理、回滚</li>
+      </ul>
+    </section>
+
+    <section id="output" class="section">
+      <p class="section-symbol" data-i18n="output.symbol">OUTPUTS</p>
+      <h2 data-i18n="output.title">成果与输出</h2>
+      <p class="lead" data-i18n="output.lead">即时结果、资产化成果、持续动作、运营与治理产出，均有沉淀与归属规则。</p>
+      <div class="output-grid">
+        <div class="output-card">
+          <span class="output-label" data-i18n="output.immediate">即时结果</span>
+          <p data-i18n="output.immediateDesc">回复、结构化结果、表单、审批单 → 会话与审计</p>
+        </div>
+        <div class="output-card">
+          <span class="output-label" data-i18n="output.asset">资产化成果</span>
+          <p data-i18n="output.assetDesc">代码库、文档库、知识包、Workflow、Blueprint → 工作区与 Capability Exchange</p>
+        </div>
+        <div class="output-card">
+          <span class="output-label" data-i18n="output.ongoing">持续动作</span>
+          <p data-i18n="output.ongoingDesc">定时巡检、推广执行、跟进任务 → 可审计、可关闭</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="evolution" class="section">
+      <p class="section-symbol" data-i18n="evolution.symbol">EVOLUTION</p>
+      <h2 data-i18n="evolution.title">受监督的自进化</h2>
+      <p class="lead" data-i18n="evolution.lead">观测 → 反馈 → 诊断 → 提案 → 评测 → 审批 → 灰度 → 晋级或回滚；三层门禁（发布前、安装时、运行时）。</p>
+      <p class="text-muted" data-i18n="evolution.footer">可演化对象：Skill、Workflow、Blueprint、Policy Pack、Knowledge View、Routing Pack、Memory Pack。禁止自动扩权、自动跨团队共享 raw memory、自动改生产代码直接上线。</p>
+    </section>
+
+    <section id="roadmap" class="section">
+      <p class="section-symbol" data-i18n="roadmap.symbol">ROADMAP</p>
+      <h2 data-i18n="roadmap.title">阶段路线</h2>
+      <div class="roadmap-grid">
+        <div class="roadmap-card">
+          <h3>MVP</h3>
+          <p data-i18n="roadmap.mvp">私有部署优先；Web Console + Chat Entry；Skill 级发布与安装；文档/代码/任务输出。</p>
+        </div>
+        <div class="roadmap-card">
+          <h3>V1</h3>
+          <p data-i18n="roadmap.v1">客户云主机部署；审批中心、能力目录、Run Log；Workflow、Blueprint、Knowledge View；成本归因。</p>
+        </div>
+        <div class="roadmap-card">
+          <h3>V2</h3>
+          <p data-i18n="roadmap.v2">多租户 SaaS + 混合部署；跨团队能力网络；Routing Pack、Memory Pack；签名发布、风险扫描。</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="cta" class="section cta-section">
+      <p class="section-symbol" data-i18n="cta.symbol">CONTACT</p>
+      <h2 data-i18n="cta.title">预约演示</h2>
+      <p class="lead" data-i18n="cta.lead">欢迎了解 EvoHive 团队智能体工作台的能力与部署方式。</p>
+      <a href="mailto:hello@evohive.net" class="btn btn-primary btn-lg" data-i18n="cta.button">联系我们</a>
+      <p class="cta-domain">evohive.net</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p data-i18n="footer.text">EvoHive is a team agent workspace for small teams to compose, share, govern, and evolve intelligence together.</p>
+    <p class="footer-lang"><span data-i18n="footer.copyright">© EvoHive 智巢</span></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

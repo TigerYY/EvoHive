@@ -1,0 +1,8 @@
+# 不提交 BizDocs 目录
+BizDocs/
+
+# 密钥不提交
+others/*.pem
+
+# 系统与本地
+.DS_Store
